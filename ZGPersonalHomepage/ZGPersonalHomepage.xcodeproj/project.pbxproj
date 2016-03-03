@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFBA637C1C87DD2D0002B852 /* headerImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBA637B1C87DD2D0002B852 /* headerImage.jpg */; };
 		EFD614DE1C8676AD00E55BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD614DD1C8676AD00E55BDA /* main.m */; };
 		EFD614E11C8676AD00E55BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD614E01C8676AD00E55BDA /* AppDelegate.m */; };
 		EFD614E41C8676AD00E55BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD614E31C8676AD00E55BDA /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFBA637B1C87DD2D0002B852 /* headerImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headerImage.jpg; sourceTree = "<group>"; };
 		EFD614D91C8676AD00E55BDA /* ZGPersonalHomepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGPersonalHomepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD614DD1C8676AD00E55BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFD614DF1C8676AD00E55BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		EFD614DC1C8676AD00E55BDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFBA637B1C87DD2D0002B852 /* headerImage.jpg */,
 				EFD614DD1C8676AD00E55BDA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -269,6 +272,7 @@
 			files = (
 				EFD614EC1C8676AD00E55BDA /* LaunchScreen.storyboard in Resources */,
 				EFD614E91C8676AD00E55BDA /* Assets.xcassets in Resources */,
+				EFBA637C1C87DD2D0002B852 /* headerImage.jpg in Resources */,
 				EFD614E71C8676AD00E55BDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +526,7 @@
 				EFD615081C8676AD00E55BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD615091C8676AD00E55BDA /* Build configuration list for PBXNativeTarget "ZGPersonalHomepageTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				EFD6150B1C8676AD00E55BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD6150C1C8676AD00E55BDA /* Build configuration list for PBXNativeTarget "ZGPersonalHomepageUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				EFD6150E1C8676AD00E55BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
