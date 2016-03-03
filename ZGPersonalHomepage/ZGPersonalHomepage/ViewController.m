@@ -37,15 +37,18 @@
     
     UIView *headerView = [[UIView alloc] init];
     self.tableViewHeaderView = headerView;
-    headerView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 100);
+    headerView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 250);
     headerView.backgroundColor = [UIColor clearColor];
     
     UIImageView *headerViewWant = [[UIImageView alloc] init];
     self.headerView = headerViewWant;
     
     headerViewWant.image = [UIImage imageNamed:@"headerImage.jpg"];
-    headerViewWant.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 100);
+    headerViewWant.contentMode = UIViewContentModeScaleAspectFill;
+    headerViewWant.clipsToBounds = YES;
+    headerViewWant.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 250);
     headerViewWant.backgroundColor = [UIColor yellowColor];
+    
     
     [tableView addSubview:headerViewWant];
     
@@ -84,7 +87,7 @@
     if (scrollView.contentOffset.y > 0) {
         return;
     }
-    self.headerView.frame = CGRectMake(0,scrollView.contentOffset.y, [UIScreen mainScreen].bounds.size.width + (- scrollView.contentOffset.y), -scrollView.contentOffset.y + 100);
+    self.headerView.frame = CGRectMake(0,scrollView.contentOffset.y, [UIScreen mainScreen].bounds.size.width + (- scrollView.contentOffset.y), -scrollView.contentOffset.y + 250);
     self.headerView.center = CGPointMake([UIScreen mainScreen].bounds.size.width / 2.0, self.headerView.center.y);
     
 }
